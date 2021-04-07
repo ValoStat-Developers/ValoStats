@@ -78,8 +78,7 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://imgur.com/a/pcSiY73" height=200>
-![alt text](https://ibb.co/BcqkMWY.png)
-
+![Imgur Image](https://imgur.com/a/pcSiY73)
 ### [BONUS] Interactive Prototype
 
 ## Schema 
