@@ -12,12 +12,12 @@
 ValoStat will show personal statistics and global statistics for game "Valorant"
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Gaming
+- **Mobile:** This app would be primarily developed for mobile and it matches the existing site, https://tracker.gg/valorant. 
+- **Story:** User views their personal statistics as well as map, general, and global statistics from Valorant.
+- **Market:** Any individual that plays Valorant can use this app on their mobile device.
+- **Habit:** This app can be used on a weekly basis in order to check on their statistics and see what they can improve. 
+- **Scope:** This app can become more developed over time with more viewership and it can receive more features and more details about the user's statistics in game.
 
 ## Product Spec
 
@@ -72,7 +72,8 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 * Login Screen to Profile Screen
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
+* Instead of a hand-drawn wireframe, a digital wireframe is used. Here is the link to the digital wireframe on figma: https://www.figma.com/file/GPLnOQ5aRNwVTwa0LsQXzT/ValoStats?node-id=0%3A1
+
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
