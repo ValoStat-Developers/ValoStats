@@ -74,10 +74,8 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 ## Wireframes
 * Instead of a hand-drawn wireframe, a digital wireframe is used. Here is the link to the digital wireframe on figma: https://www.figma.com/file/GPLnOQ5aRNwVTwa0LsQXzT/ValoStats?node-id=0%3A1
 
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://imgur.com/a/pcSiY73" height=200>
 <img src="http://g.recordit.co/6V9dKqGL8P.gif" height=200>
 
 ### [BONUS] Interactive Prototype
