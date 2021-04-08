@@ -8,7 +8,6 @@
 
 ## Overview
 ### Description
-[Description of your app]
 ValoStat will show personal statistics and global statistics for game "Valorant"
 ### App Evaluation
 [Evaluation of your app across the following attributes]
