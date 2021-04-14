@@ -81,6 +81,8 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 
 ## Schema 
 [This section will be completed in Unit 9]
+| Property | Type | Description
+| --- | --- | ---|
 ### Models
 [Add table of models]
 ### Networking
