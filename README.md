@@ -80,11 +80,28 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-| Property | Type | Description
-| --- | --- | ---|
 ### Models
-[Add table of models]
+| Property | Type | Description
+| --- | --- | --- |
+|competitiveTier | int | User’s current rank
+|roundsPlayed |int | Shows the number of rounds the user has played.
+|characterId |String | Shows the agent of the player
+|kills|int|Show the number of kills the user has.
+|deaths|int|Show the number of deaths the user has.
+|assists|int|Shows the number of assists the user has.
+|score|int|Shows user’s overall score
+|characterId|String|Shows the user’s character id.
+|isActive|Boolean |Shows if user is currently in game
+|isRanked|Boolean|Shows if user played ranked game
+|ability1Effects|String|Description of agent’s abilities.
+|ability2Effects|String|Description of agent’s abilities.
+|ultimateEffects|String|Description of agent’s ultimate ability.
+|gameName|String|User’s name in game
+|playerCard|String|User’s player card
+|rankedRating|long|User’s ranked rating
+|leaderboardRank|long|Global top players
+|map|String|Name of map 
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
