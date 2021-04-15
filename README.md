@@ -26,14 +26,14 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 
 - [ ] Allows user to login with Riot account
 - [ ] User can view their personal statistics
-      * User's current rank
-      * User's amount of victories
-      * User's amount of losses
-      * User's ACS (average combat score)
-      * User's KDA (kill/death/assists)
+     * User's current rank
+     * User's amount of victories
+     * User's amount of losses
+     * User's ACS (average combat score)
+     * User's KDA (kill/death/assists)
 - [ ] User can view global statistics in Valorant
-      * Overall agent stats (pick rate, win rate, overall KDA, ACS)
-      * Ranked distribution
+     * Overall agent stats (pick rate, win rate, overall KDA, ACS)
+     * Ranked distribution
 - [ ] User can search for other players in the game.
     
 
