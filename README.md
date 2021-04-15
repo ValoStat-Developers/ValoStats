@@ -106,7 +106,7 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 #### List of Network Requests by Screen
 
 * Login Screen
-  * (Get) 
+  * (Get) Logged in user object
 * Profile Screen
   * (Get) user stat 
 * Search Screen
