@@ -103,6 +103,13 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 |map|String|Name of map 
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of Network Requests by Screen
+
+* Login Screen
+  * (Get) 
+* Profile Screen
+  * (Get) user stat 
+* Search Screen
+  * (Get) players stat
+* Detail Screen
+  * (Get) global stat
