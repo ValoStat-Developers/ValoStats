@@ -15,6 +15,7 @@
 		291E908D260D3E1D0062E4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291E908B260D3E1D0062E4CF /* LaunchScreen.storyboard */; };
 		291E9098260D3E1D0062E4CF /* ValoStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9097260D3E1D0062E4CF /* ValoStatsTests.swift */; };
 		291E90A3260D3E1D0062E4CF /* ValoStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */; };
+		2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978E4EA2630B2A3003C38DB /* ApiCaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		291E909E260D3E1D0062E4CF /* ValoStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValoStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoStatsUITests.swift; sourceTree = "<group>"; };
 		291E90A4260D3E1D0062E4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2978E4EA2630B2A3003C38DB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				291E9089260D3E1D0062E4CF /* Assets.xcassets */,
 				291E908B260D3E1D0062E4CF /* LaunchScreen.storyboard */,
 				291E908E260D3E1D0062E4CF /* Info.plist */,
+				2978E4EA2630B2A3003C38DB /* ApiCaller.swift */,
 			);
 			path = ValoStats;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				291E9085260D3E180062E4CF /* ViewController.swift in Sources */,
 				291E9081260D3E180062E4CF /* AppDelegate.swift in Sources */,
 				291E9083260D3E180062E4CF /* SceneDelegate.swift in Sources */,
+				2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
