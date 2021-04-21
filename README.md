@@ -116,6 +116,7 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
   * (Get) global stat
 
 ### Progress
-##### 4/21/21 
+#### 4/21/21 
+
 <img src= "http://g.recordit.co/tMEmRIy097.gif" width=250><br>
 
