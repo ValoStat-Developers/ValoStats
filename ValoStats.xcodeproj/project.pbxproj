@@ -16,6 +16,7 @@
 		291E9098260D3E1D0062E4CF /* ValoStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9097260D3E1D0062E4CF /* ValoStatsTests.swift */; };
 		291E90A3260D3E1D0062E4CF /* ValoStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */; };
 		2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978E4EA2630B2A3003C38DB /* ApiCaller.swift */; };
+		9F3EE6512630C5DD0071BE89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoStatsUITests.swift; sourceTree = "<group>"; };
 		291E90A4260D3E1D0062E4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2978E4EA2630B2A3003C38DB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		291E9074260D3E170062E4CF = {
 			isa = PBXGroup;
 			children = (
+				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E907F260D3E180062E4CF /* ValoStats */,
 				291E9096260D3E1D0062E4CF /* ValoStatsTests */,
 				291E90A1260D3E1D0062E4CF /* ValoStatsUITests */,
@@ -264,6 +267,7 @@
 				291E9085260D3E180062E4CF /* ViewController.swift in Sources */,
 				291E9081260D3E180062E4CF /* AppDelegate.swift in Sources */,
 				291E9083260D3E180062E4CF /* SceneDelegate.swift in Sources */,
+				9F3EE6512630C5DD0071BE89 /* LoginViewController.swift in Sources */,
 				2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
