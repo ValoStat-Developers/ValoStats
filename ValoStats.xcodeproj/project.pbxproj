@@ -81,11 +81,11 @@
 		291E9074260D3E170062E4CF = {
 			isa = PBXGroup;
 			children = (
-				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E907F260D3E180062E4CF /* ValoStats */,
 				291E9096260D3E1D0062E4CF /* ValoStatsTests */,
 				291E90A1260D3E1D0062E4CF /* ValoStatsUITests */,
 				291E907E260D3E180062E4CF /* Products */,
+				9F524CF926320659001CDCA8 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				291E9080260D3E180062E4CF /* AppDelegate.swift */,
+				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E9082260D3E180062E4CF /* SceneDelegate.swift */,
 				291E9086260D3E180062E4CF /* Main.storyboard */,
 				291E9089260D3E1D0062E4CF /* Assets.xcassets */,
@@ -128,6 +129,14 @@
 				291E90A4260D3E1D0062E4CF /* Info.plist */,
 			);
 			path = ValoStatsUITests;
+			sourceTree = "<group>";
+		};
+		9F524CF926320659001CDCA8 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				2978E4EA2630B2A3003C38DB /* ApiCaller.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
