@@ -24,7 +24,7 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 
 **Required Must-have Stories**
 
-- [ ] Allows user to login with Riot account
+- [X] Allows user to login with Riot account
 - [ ] User can view their personal statistics
      * User's current rank
      * User's amount of victories
@@ -114,3 +114,9 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
   * (Get) players stat
 * Detail Screen
   * (Get) global stat
+
+### Progress
+#### 4/21/21 
+
+<img src= "http://g.recordit.co/tMEmRIy097.gif" width=250><br>
+
