@@ -2,13 +2,17 @@
 //  LoginViewController.swift
 //  ValoStats
 //
-//  Created by Victor Dai on 4/21/21.
+//  Created by Victor Dai on 4/22/21.
 //
 
 import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var RiotIdTextField: UITextField!
+    @IBOutlet weak var Tagline: UITextField!
+    @IBOutlet weak var LoginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

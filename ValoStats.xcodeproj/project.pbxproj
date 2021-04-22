@@ -15,7 +15,7 @@
 		291E9098260D3E1D0062E4CF /* ValoStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9097260D3E1D0062E4CF /* ValoStatsTests.swift */; };
 		291E90A3260D3E1D0062E4CF /* ValoStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */; };
 		2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978E4EA2630B2A3003C38DB /* ApiCaller.swift */; };
-		9F3EE6512630C5DD0071BE89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */; };
+		9F524D0126320B2C001CDCA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F524D0026320B2C001CDCA8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoStatsUITests.swift; sourceTree = "<group>"; };
 		291E90A4260D3E1D0062E4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2978E4EA2630B2A3003C38DB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
-		9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F524D0026320B2C001CDCA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				291E9080260D3E180062E4CF /* AppDelegate.swift */,
-				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E9082260D3E180062E4CF /* SceneDelegate.swift */,
 				291E9086260D3E180062E4CF /* Main.storyboard */,
 				291E9089260D3E1D0062E4CF /* Assets.xcassets */,
 				291E908B260D3E1D0062E4CF /* LaunchScreen.storyboard */,
 				291E908E260D3E1D0062E4CF /* Info.plist */,
+				9F524D0026320B2C001CDCA8 /* LoginViewController.swift */,
 			);
 			path = ValoStats;
 			sourceTree = "<group>";
@@ -269,9 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F524D0126320B2C001CDCA8 /* LoginViewController.swift in Sources */,
 				291E9081260D3E180062E4CF /* AppDelegate.swift in Sources */,
 				291E9083260D3E180062E4CF /* SceneDelegate.swift in Sources */,
-				9F3EE6512630C5DD0071BE89 /* LoginViewController.swift in Sources */,
 				2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
