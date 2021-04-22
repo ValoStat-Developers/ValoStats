@@ -104,6 +104,7 @@
 			children = (
 				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E9080260D3E180062E4CF /* AppDelegate.swift */,
+				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E9082260D3E180062E4CF /* SceneDelegate.swift */,
 				291E9086260D3E180062E4CF /* Main.storyboard */,
 				291E9089260D3E1D0062E4CF /* Assets.xcassets */,
@@ -131,7 +132,7 @@
 			path = ValoStatsUITests;
 			sourceTree = "<group>";
 		};
-		294F3E0C2632067900CFCBF9 /* Recovered References */ = {
+		9F524CF926320659001CDCA8 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				2978E4EA2630B2A3003C38DB /* ApiCaller.swift */,
