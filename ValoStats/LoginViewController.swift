@@ -15,12 +15,17 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       
+        
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onLoginButton (sender : Any) {
-        
+        var riotId: String = RiotIdTextField.text!
+        var tagline: String = Tagline.text!
+        var apiKey : String = "RGAPI-64bb0f96-e4af-4b3d-b5f4-7d78a26d969d"
+        var url: String = "https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/" + riotId + "/" + tagline + "?api_key=" + apiKey
+        print(url)
     }
    
     /*

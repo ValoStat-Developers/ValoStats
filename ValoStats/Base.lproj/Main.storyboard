@@ -37,6 +37,7 @@
                                     <color key="titleShadowColor" red="0.70489057219999995" green="0.98807805589999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onLoginButtonWithSender:" destination="ckS-xg-5TB" eventType="touchDown" id="iQ3-w4-n9a"/>
                                     <segue destination="Utx-h8-TSj" kind="show" identifier="profileSegue" id="eHb-Dr-Fk0"/>
                                 </connections>
                             </button>
