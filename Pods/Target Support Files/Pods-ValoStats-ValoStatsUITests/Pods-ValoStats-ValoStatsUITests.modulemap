@@ -1,0 +1,6 @@
+framework module Pods_ValoStats_ValoStatsUITests {
+  umbrella header "Pods-ValoStats-ValoStatsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
