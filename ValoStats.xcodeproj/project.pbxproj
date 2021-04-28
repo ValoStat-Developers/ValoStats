@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11850A42B9A0494D21D44646 /* Pods_ValoStats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C510872043C2A49EBDD90B6F /* Pods_ValoStats.framework */; };
 		291E9081260D3E180062E4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9080260D3E180062E4CF /* AppDelegate.swift */; };
 		291E9083260D3E180062E4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9082260D3E180062E4CF /* SceneDelegate.swift */; };
 		291E9088260D3E180062E4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291E9086260D3E180062E4CF /* Main.storyboard */; };
@@ -15,7 +16,10 @@
 		291E9098260D3E1D0062E4CF /* ValoStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9097260D3E1D0062E4CF /* ValoStatsTests.swift */; };
 		291E90A3260D3E1D0062E4CF /* ValoStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */; };
 		2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978E4EA2630B2A3003C38DB /* ApiCaller.swift */; };
+		29B416022639EE7400074BA7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 29B416012639EE7400074BA7 /* SwiftPackageProductDependency */; };
+		87C525F2845AF8EE0D86A9B7 /* Pods_ValoStats_ValoStatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A8346FC5D942FFB139463 /* Pods_ValoStats_ValoStatsUITests.framework */; };
 		9F524D0126320B2C001CDCA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F524D0026320B2C001CDCA8 /* LoginViewController.swift */; };
+		FE1EA026343731707C757EF7 /* Pods_ValoStatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64782C34040F3042AEC52454 /* Pods_ValoStatsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2193EAF3FCBDA3CE96E5DBE1 /* Pods-ValoStats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStats.debug.xcconfig"; path = "Target Support Files/Pods-ValoStats/Pods-ValoStats.debug.xcconfig"; sourceTree = "<group>"; };
 		291E907D260D3E180062E4CF /* ValoStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValoStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		291E9080260D3E180062E4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		291E9082260D3E180062E4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +55,15 @@
 		291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoStatsUITests.swift; sourceTree = "<group>"; };
 		291E90A4260D3E1D0062E4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2978E4EA2630B2A3003C38DB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		41CA959E1FFBE3315C1FB480 /* Pods-ValoStatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStatsTests.debug.xcconfig"; path = "Target Support Files/Pods-ValoStatsTests/Pods-ValoStatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		426A8346FC5D942FFB139463 /* Pods_ValoStats_ValoStatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValoStats_ValoStatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5299E4B18FB66DA074687699 /* Pods-ValoStats-ValoStatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStats-ValoStatsUITests.release.xcconfig"; path = "Target Support Files/Pods-ValoStats-ValoStatsUITests/Pods-ValoStats-ValoStatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64782C34040F3042AEC52454 /* Pods_ValoStatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValoStatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F524D0026320B2C001CDCA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A80829F7DCD49E2CEA36C55F /* Pods-ValoStats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStats.release.xcconfig"; path = "Target Support Files/Pods-ValoStats/Pods-ValoStats.release.xcconfig"; sourceTree = "<group>"; };
+		AAF8BB325AAD47C1A308FD72 /* Pods-ValoStatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStatsTests.release.xcconfig"; path = "Target Support Files/Pods-ValoStatsTests/Pods-ValoStatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C510872043C2A49EBDD90B6F /* Pods_ValoStats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValoStats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44D1F22D637A637797BEC16 /* Pods-ValoStats-ValoStatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStats-ValoStatsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ValoStats-ValoStatsUITests/Pods-ValoStats-ValoStatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B416022639EE7400074BA7 /* BuildFile in Frameworks */,
+				11850A42B9A0494D21D44646 /* Pods_ValoStats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1EA026343731707C757EF7 /* Pods_ValoStatsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C525F2845AF8EE0D86A9B7 /* Pods_ValoStats_ValoStatsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +102,9 @@
 				291E9096260D3E1D0062E4CF /* ValoStatsTests */,
 				291E90A1260D3E1D0062E4CF /* ValoStatsUITests */,
 				291E907E260D3E180062E4CF /* Products */,
-				294F3E0C2632067900CFCBF9 /* Recovered References */,
+				29B415FC2639E93A00074BA7 /* Recovered References */,
+				E17CF54246B91502B6F4CE69 /* Pods */,
+				65D9930C0F84E44AEAEB2CDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +121,6 @@
 		291E907F260D3E180062E4CF /* ValoStats */ = {
 			isa = PBXGroup;
 			children = (
-				9F3EE6502630C5DD0071BE89 /* LoginViewController.swift */,
 				291E9080260D3E180062E4CF /* AppDelegate.swift */,
 				291E9082260D3E180062E4CF /* SceneDelegate.swift */,
 				291E9086260D3E180062E4CF /* Main.storyboard */,
@@ -132,12 +150,36 @@
 			path = ValoStatsUITests;
 			sourceTree = "<group>";
 		};
-		9F524CF926320659001CDCA8 /* Recovered References */ = {
+		29B415FC2639E93A00074BA7 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				2978E4EA2630B2A3003C38DB /* ApiCaller.swift */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		65D9930C0F84E44AEAEB2CDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C510872043C2A49EBDD90B6F /* Pods_ValoStats.framework */,
+				426A8346FC5D942FFB139463 /* Pods_ValoStats_ValoStatsUITests.framework */,
+				64782C34040F3042AEC52454 /* Pods_ValoStatsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17CF54246B91502B6F4CE69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2193EAF3FCBDA3CE96E5DBE1 /* Pods-ValoStats.debug.xcconfig */,
+				A80829F7DCD49E2CEA36C55F /* Pods-ValoStats.release.xcconfig */,
+				D44D1F22D637A637797BEC16 /* Pods-ValoStats-ValoStatsUITests.debug.xcconfig */,
+				5299E4B18FB66DA074687699 /* Pods-ValoStats-ValoStatsUITests.release.xcconfig */,
+				41CA959E1FFBE3315C1FB480 /* Pods-ValoStatsTests.debug.xcconfig */,
+				AAF8BB325AAD47C1A308FD72 /* Pods-ValoStatsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,15 +189,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 291E90A7260D3E1D0062E4CF /* Build configuration list for PBXNativeTarget "ValoStats" */;
 			buildPhases = (
+				34E8A0ACD47D914323C79AE9 /* [CP] Check Pods Manifest.lock */,
 				291E9079260D3E180062E4CF /* Sources */,
 				291E907A260D3E180062E4CF /* Frameworks */,
 				291E907B260D3E180062E4CF /* Resources */,
+				683343A89961A6DF2D1B3DF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ValoStats;
+			packageProductDependencies = (
+				29B416012639EE7400074BA7 /* SwiftPackageProductDependency */,
+			);
 			productName = ValoStats;
 			productReference = 291E907D260D3E180062E4CF /* ValoStats.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 291E90AA260D3E1D0062E4CF /* Build configuration list for PBXNativeTarget "ValoStatsTests" */;
 			buildPhases = (
+				F7B17E28DC5AA063019AEC20 /* [CP] Check Pods Manifest.lock */,
 				291E908F260D3E1D0062E4CF /* Sources */,
 				291E9090260D3E1D0062E4CF /* Frameworks */,
 				291E9091260D3E1D0062E4CF /* Resources */,
@@ -182,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 291E90AD260D3E1D0062E4CF /* Build configuration list for PBXNativeTarget "ValoStatsUITests" */;
 			buildPhases = (
+				75AC172EFD643A1B43531FC4 /* [CP] Check Pods Manifest.lock */,
 				291E909A260D3E1D0062E4CF /* Sources */,
 				291E909B260D3E1D0062E4CF /* Frameworks */,
 				291E909C260D3E1D0062E4CF /* Resources */,
+				B8A05F7AD89742CC4FFE4BF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 291E9074260D3E170062E4CF;
+			packageReferences = (
+				29B416002639EE7400074BA7 /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = 291E907E260D3E180062E4CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -264,6 +317,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E8A0ACD47D914323C79AE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValoStats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683343A89961A6DF2D1B3DF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValoStats/Pods-ValoStats-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValoStats/Pods-ValoStats-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValoStats/Pods-ValoStats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75AC172EFD643A1B43531FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValoStats-ValoStatsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A05F7AD89742CC4FFE4BF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValoStats-ValoStatsUITests/Pods-ValoStats-ValoStatsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValoStats-ValoStatsUITests/Pods-ValoStats-ValoStatsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValoStats-ValoStatsUITests/Pods-ValoStats-ValoStatsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B17E28DC5AA063019AEC20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValoStatsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		291E9079260D3E180062E4CF /* Sources */ = {
@@ -446,6 +602,7 @@
 		};
 		291E90A8260D3E1D0062E4CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2193EAF3FCBDA3CE96E5DBE1 /* Pods-ValoStats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +621,7 @@
 		};
 		291E90A9260D3E1D0062E4CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80829F7DCD49E2CEA36C55F /* Pods-ValoStats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,6 +640,7 @@
 		};
 		291E90AB260D3E1D0062E4CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CA959E1FFBE3315C1FB480 /* Pods-ValoStatsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +662,7 @@
 		};
 		291E90AC260D3E1D0062E4CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF8BB325AAD47C1A308FD72 /* Pods-ValoStatsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +684,7 @@
 		};
 		291E90AE260D3E1D0062E4CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44D1F22D637A637797BEC16 /* Pods-ValoStats-ValoStatsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +704,7 @@
 		};
 		291E90AF260D3E1D0062E4CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5299E4B18FB66DA074687699 /* Pods-ValoStats-ValoStatsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -600,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29B416002639EE7400074BA7 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29B416012639EE7400074BA7 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29B416002639EE7400074BA7 /* RemoteSwiftPackageReference */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 291E9075260D3E170062E4CF /* Project object */;
 }
