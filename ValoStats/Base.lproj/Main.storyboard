@@ -37,28 +37,28 @@
                                     <color key="titleShadowColor" red="0.70489057219999995" green="0.98807805589999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Utx-h8-TSj" kind="show" id="eHb-Dr-Fk0"/>
+                                    <segue destination="Utx-h8-TSj" kind="show" identifier="profileSegue" id="eHb-Dr-Fk0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faS-IZ-1vx">
-                                <rect key="frame" x="62" y="615" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riot ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faS-IZ-1vx">
+                                <rect key="frame" x="62" y="615" width="50.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyF-hy-7w8">
-                                <rect key="frame" x="62" y="673" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tagline" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyF-hy-7w8">
+                                <rect key="frame" x="62" y="673" width="54" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B3R-0v-yDb">
-                                <rect key="frame" x="132" y="672" width="182" height="34"/>
+                                <rect key="frame" x="144" y="672" width="170" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g7B-4V-QEA">
-                                <rect key="frame" x="132" y="615" width="182" height="34"/>
+                                <rect key="frame" x="140.5" y="615" width="173.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -103,7 +103,6 @@
         <!--Profile -->
         <scene sceneID="fCN-yR-oAp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qlG-Ig-ADE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="Profile " id="Utx-h8-TSj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cwe-PE-83P">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -281,8 +280,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="mNn-dv-ft3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qlG-Ig-ADE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756.52173913043487" y="89.732142857142847"/>
+            <point key="canvasLocation" x="767" y="104"/>
         </scene>
     </scenes>
     <resources>
