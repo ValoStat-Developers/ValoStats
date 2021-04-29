@@ -120,3 +120,6 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 
 <img src= "http://g.recordit.co/tMEmRIy097.gif" width=250><br>
 
+#### 4/29/21 
+
+* Almost completed the login screen. The issue of calling the api must be resolved as soon as possible.
