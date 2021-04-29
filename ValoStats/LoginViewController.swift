@@ -21,10 +21,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onLoginButton (sender : Any) {
-        var riotId: String = RiotIdTextField.text!
-        var tagline: String = Tagline.text!
-        var apiKey : String = "RGAPI-64bb0f96-e4af-4b3d-b5f4-7d78a26d969d"
-        var url: String = "https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/" + riotId + "/" + tagline + "?api_key=" + apiKey
+        let riotId = RiotIdTextField.text!
+        let tagline = Tagline.text!
+        let apiKey = "RGAPI-64bb0f96-e4af-4b3d-b5f4-7d78a26d969d"
+        let url = "https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/" + riotId + "/" + tagline + "?api_key=" + apiKey
         print(url)
     }
    
