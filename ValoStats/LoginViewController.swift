@@ -13,8 +13,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var Tagline: UITextField!
     @IBOutlet weak var LoginButton: UIButton!
     
-    var gameName: String
-    var tagLine: String
+    var gameName = [[String:Any]]()
+    var tagLine = [[String:Any]]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +27,10 @@ class LoginViewController: UIViewController {
     @IBAction func onLoginButton (sender : Any) {
         let riotId = RiotIdTextField.text!
         let tagline = Tagline.text!
-        let apiKey = "RGAPI-64bb0f96-e4af-4b3d-b5f4-7d78a26d969d"
-        let url = "https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/" + riotId + "/" + tagline + "?api_key=" + apiKey
-        
+        let apiKey = "RGAPI-b246d639-908e-4996-a1bc-c326c0241058"
+        let urlString = "https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/" + riotId + "/" + tagline + "?api_key=" + apiKey
+        let url = URL(string: urlString)!
+        //print(url)
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in
@@ -38,9 +40,11 @@ class LoginViewController: UIViewController {
            } else if let data = data {
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
             
-        gameName = dataDictionary["gameName: "] as! String
-        tagLine = dataDictionary["tagLine: "] as! String
-        
+            self.gameName = dataDictionary["gameName: "] as! [[String:Any]]
+            self.tagLine = dataDictionary["tagLine: "] as! [[String:Any]]
+            
+            print(self.gameName)
+            print(self.tagLine)
         
         
     }
@@ -55,4 +59,6 @@ class LoginViewController: UIViewController {
     }
     */
 
+}
+    }
 }

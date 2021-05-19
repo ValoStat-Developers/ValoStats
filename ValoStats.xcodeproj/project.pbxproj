@@ -15,8 +15,7 @@
 		291E908D260D3E1D0062E4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291E908B260D3E1D0062E4CF /* LaunchScreen.storyboard */; };
 		291E9098260D3E1D0062E4CF /* ValoStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E9097260D3E1D0062E4CF /* ValoStatsTests.swift */; };
 		291E90A3260D3E1D0062E4CF /* ValoStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */; };
-		2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978E4EA2630B2A3003C38DB /* ApiCaller.swift */; };
-		29B416022639EE7400074BA7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 29B416012639EE7400074BA7 /* SwiftPackageProductDependency */; };
+		29B416022639EE7400074BA7 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 29B416012639EE7400074BA7 /* AlamofireImage */; };
 		87C525F2845AF8EE0D86A9B7 /* Pods_ValoStats_ValoStatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A8346FC5D942FFB139463 /* Pods_ValoStats_ValoStatsUITests.framework */; };
 		9F524D0126320B2C001CDCA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F524D0026320B2C001CDCA8 /* LoginViewController.swift */; };
 		FE1EA026343731707C757EF7 /* Pods_ValoStatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64782C34040F3042AEC52454 /* Pods_ValoStatsTests.framework */; };
@@ -54,7 +53,6 @@
 		291E909E260D3E1D0062E4CF /* ValoStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValoStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291E90A2260D3E1D0062E4CF /* ValoStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoStatsUITests.swift; sourceTree = "<group>"; };
 		291E90A4260D3E1D0062E4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2978E4EA2630B2A3003C38DB /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
 		41CA959E1FFBE3315C1FB480 /* Pods-ValoStatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStatsTests.debug.xcconfig"; path = "Target Support Files/Pods-ValoStatsTests/Pods-ValoStatsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		426A8346FC5D942FFB139463 /* Pods_ValoStats_ValoStatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValoStats_ValoStatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5299E4B18FB66DA074687699 /* Pods-ValoStats-ValoStatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoStats-ValoStatsUITests.release.xcconfig"; path = "Target Support Files/Pods-ValoStats-ValoStatsUITests/Pods-ValoStats-ValoStatsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B416022639EE7400074BA7 /* BuildFile in Frameworks */,
+				29B416022639EE7400074BA7 /* AlamofireImage in Frameworks */,
 				11850A42B9A0494D21D44646 /* Pods_ValoStats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +151,6 @@
 		29B415FC2639E93A00074BA7 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				2978E4EA2630B2A3003C38DB /* ApiCaller.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -178,7 +175,6 @@
 				41CA959E1FFBE3315C1FB480 /* Pods-ValoStatsTests.debug.xcconfig */,
 				AAF8BB325AAD47C1A308FD72 /* Pods-ValoStatsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -201,7 +197,7 @@
 			);
 			name = ValoStats;
 			packageProductDependencies = (
-				29B416012639EE7400074BA7 /* SwiftPackageProductDependency */,
+				29B416012639EE7400074BA7 /* AlamofireImage */,
 			);
 			productName = ValoStats;
 			productReference = 291E907D260D3E180062E4CF /* ValoStats.app */;
@@ -278,7 +274,7 @@
 			);
 			mainGroup = 291E9074260D3E170062E4CF;
 			packageReferences = (
-				29B416002639EE7400074BA7 /* RemoteSwiftPackageReference */,
+				29B416002639EE7400074BA7 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = 291E907E260D3E180062E4CF /* Products */;
 			projectDirPath = "";
@@ -429,7 +425,6 @@
 				9F524D0126320B2C001CDCA8 /* LoginViewController.swift in Sources */,
 				291E9081260D3E180062E4CF /* AppDelegate.swift in Sources */,
 				291E9083260D3E180062E4CF /* SceneDelegate.swift in Sources */,
-				2978E4EB2630B2A3003C38DB /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,7 +759,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		29B416002639EE7400074BA7 /* RemoteSwiftPackageReference */ = {
+		29B416002639EE7400074BA7 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
 			requirement = {
@@ -775,9 +770,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		29B416012639EE7400074BA7 /* SwiftPackageProductDependency */ = {
+		29B416012639EE7400074BA7 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 29B416002639EE7400074BA7 /* RemoteSwiftPackageReference */;
+			package = 29B416002639EE7400074BA7 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
 /* End XCSwiftPackageProductDependency section */
