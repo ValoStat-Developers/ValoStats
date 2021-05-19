@@ -25,16 +25,12 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 **Required Must-have Stories**
 
 - [X] Allows user to login with Riot account
-- [ ] User can view their personal statistics
+- [X] User can view their personal statistics
      * User's current rank
      * User's amount of victories
      * User's amount of losses
      * User's ACS (average combat score)
      * User's KDA (kill/death/assists)
-- [ ] User can view global statistics in Valorant
-     * Overall agent stats (pick rate, win rate, overall KDA, ACS)
-     * Ranked distribution
-- [ ] User can search for other players in the game.
     
 
 **Optional Nice-to-have Stories**
@@ -45,6 +41,10 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
     * Overall Map Statistics 
     * General account settings
         * Dark mode
+* User can view global statistics in Valorant
+     * Overall agent stats (pick rate, win rate, overall KDA, ACS)
+     * Ranked distribution
+* User can search for other players in the game.
 
 
 ### 2. Screen Archetypes
@@ -123,3 +123,7 @@ ValoStat will show personal statistics and global statistics for game "Valorant"
 #### 4/29/21 
 
 * Almost completed the login screen. The issue of calling the api must be resolved as soon as possible.
+
+#### 5/19/21 
+
+* Polished profile screen and the work on implementing Valorant API still needs attention. 
